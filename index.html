@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment 14</title>
+</head>
+<body>
+
+
+	<h1>Q. What is JavaScript ?</h1>
+
+<p>	JavaScript is a lightweight interpreted programming language. The web browser receives the JavaScript code in its original text form and runs the script from that.14-Sept-2022</p>
+
+
+<h1>Q.  Write down difference between Declaration and Initialization a variable .</h1>
+<p>Declarations specify the type followed by the name, and optionally the initialization. Initialization sets the variable to a new instance. It must be to a type that is compatible with the declaration type. In the above code, the variable a is declared as a string and is initialized to "Hello World</p>
+
+<h1>Q. In how many ways we can define a variable .</h1>
+<p>Basically we can declare variables in three different ways by using var, let and const keyword. Each keyword is used in some specific conditions. var: This keyword is used to declare variable globally. If you used this keyword to declare variable then the variable can accessible globally and changeable also.</p>
+<h1>Q. Is variable is case sensitive ?</h1>
+<p>Variable names are not case sensitive. That is, you can use a name as uppercase on one line and lowercase on the next; both refer to the same variable. Production Reporting initializes variables to null (text and date) or zero (numeric). Commands can grow to whatever length the memory of your computer can accommodate.</p>
+<h1>Q. When we declare a variable can we start it with any number?</h1>
+<p>
+	Variable names cannot start with a digit, because it can cause some problems like below: int a = 2; int 2 = 5; int c = 2 * a; what is the value of c? is 4, or is 10!
+</p>
+
+<h4 id="color"></h4>
+
+<h1>Assignment</h1>
+
+<script>
+
+var a=10;
+document.write("var "+a+"<br>");
+const b=20;
+document.write("const "+b+"<br>");
+
+var q3= "Write  a Program that takes two variables X and Y ,  store the result in a new variable Z  and prints a sum of it.";
+document.write(q3+"<br>"); 
+
+let x=10;
+let y=20;
+let z=x+y;
+document.write(z+"<br>");
+
+var q4="4. Create a variable called mycolor , assign the value Purple to it";
+document.write(q4+"<br>");
+
+var g="mycolor";
+var g="purple";
+document.write(g+"<br>");
+var q5="5. On one single line, declare three variables with the following names and values:"
+document.write(q5+"<br>");
+var fname="Lucy", lName="John", age=25;
+document.write("fname "+fname+"<br>");
+document.write("lName "+lName+"<br>");
+document.write("age "+age+"<br>");
+
+
+
+
+</script>
+
+<h1 id="task">task 1</h1>
+
+<script type="text/javascript">
+	var task1="task # 1: In the below code, we are using only one CSS property at a time, so my question is, Can we add multiple CSS properties when we are using  getElementById?";
+	document.write(task1+"<br>");
+
+	document.getElementById("task").setAttribute(
+   "style", "font-size: 100px; font-style: italic; color:#ff0000;");
+
+
+</script>
+
+
+<script type="text/javascript">
+	var task2="task # 2 :  In the below code can I add color red to both paragraph and heading in one line or without using [0] or [1] ?";
+	document.write(task2+"<br>");
+	var ans="no we can not ..we can only do through loop";
+	document.write(ans);
+</script>
+
+</body>
+</html>
